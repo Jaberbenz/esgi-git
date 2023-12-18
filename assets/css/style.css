@@ -92,3 +92,11 @@ ul {
   font-size: 2rem;
   font-weight: 500;
 }
+.list-student ul li a {
+  text-decoration: none; /* Supprime le soulignement du lien par défaut */
+  color: initial; /* Utilisez la couleur par défaut du texte */
+}
+
+.list-student ul li a:hover {
+  background-color: #7f8c8d;/* Couleur du texte au survol */
+}
