@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cv-mathys.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Liste de cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <h1>Curriculum Vitae</h1>
+      </div>
+    </header>
+    <div class="container">
+      <aside class="list-student">
+        <h2>Etudiants</h2>
+        <div class="separator"></div>
+        <ul>
+          <li>Jaber</li>
+          <li>Mathys</li>
+          <li>Martin</li>
+          <li>Nawel</li>
+          <li>Florian</li>
+        </ul>
+      </aside>
+      <main>
+        <div class="cv-content">
+          <ul class="cv-rubrique">
+            <li><a href="#" onclick="toggleDrawer('profileDrawer')">Profil</a></li>
+            <li><a href="#" onclick="toggleDrawer('academicDrawer')">Parcours Academique</a></li>
+            <li><a href="#" onclick="toggleDrawer('experienceDrawer')">Experience Professionnelles</a></li>
+            <li><a href="#" onclick="toggleDrawer('languagesDrawer')">Langues</a></li>
+            <li><a href="#" onclick="toggleDrawer('programmingDrawer')">Languages Informatique</a></li>
+          </ul>
+      
+          <!-- Ajoutez des divs pour le contenu des autres tirroirs (drawers) -->
+          <div class="drawer-content" id="profileDrawer">
+            <!-- Contenu du profil -->
+            <p>Nom: [Votre nom]</p>
+            <p>Âge: [Votre âge]</p>
+            <p>Formation: [Votre formation]</p>
+            <!-- Ajoutez d'autres informations pertinentes ici -->
+          </div>
+      
+          <div class="drawer-content" id="academicDrawer">
+            <!-- Contenu du parcours academique -->
+            <p>Année d'étude: [Année d'étude]</p>
+            <p>Spécialisation: [Spécialisation]</p>
+            <!-- Ajoutez d'autres informations pertinentes ici -->
+          </div>
+      
+          <div class="drawer-content" id="experienceDrawer">
+            <!-- Contenu de l'expérience professionnelle -->
+            <p>Poste: [Poste]</p>
+            <p>Entreprise: [Entreprise]</p>
+            <!-- Ajoutez d'autres informations pertinentes ici -->
+          </div>
+      
+          <div class="drawer-content" id="languagesDrawer">
+            <!-- Contenu des langues -->
+            <p>Langue: [Langue]</p>
+            <p>Niveau: [Niveau]</p>
+            <!-- Ajoutez d'autres informations pertinentes ici -->
+          </div>
+      
+          <div class="drawer-content" id="programmingDrawer">
+            <!-- Contenu des langages informatiques -->
+            <p>Langage: [Langage]</p>
+            <p>Niveau: [Niveau]</p>
+            <!-- Ajoutez d'autres informations pertinentes ici -->
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../js/cv-mathys.js"></script>
+  </body>
+</html>
