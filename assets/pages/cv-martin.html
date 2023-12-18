@@ -27,7 +27,7 @@
         <ul>
           <li>Jaber</li>
           <li>Mathys</li>
-          <li class="selected">Martin</li>
+          <li><a href="../../index.html" class="selected">Martin</a></li>
           <li>Nawel</li>
           <li>Florian</li>
         </ul>
@@ -35,18 +35,21 @@
       <main>
         <div class="cv-content">
           <ul class="cv-rubrique">
-            <li onclick="changeVisibility('profil')">Profil</li>
-            <li onclick="changeVisibility('parcours')">Parcours Academique</li>
-            <li onclick="changeVisibility('experience')">
+            <li onclick="changeVisibility('profil',this)">Profil</li>
+            <li onclick="changeVisibility('parcours',this)">
+              Parcours Academique
+            </li>
+            <li onclick="changeVisibility('experience',this)">
               Experience Professionnelles
             </li>
-            <li onclick="changeVisibility('Langues')">Langues</li>
-            <li onclick="changeVisibility('LanguagesProgrammation')">
+            <li onclick="changeVisibility('Langues',this)">Langues</li>
+            <li onclick="changeVisibility('LanguagesProgrammation', this)">
               Languages Informatique
             </li>
           </ul>
           <div class="profil-container" id="profil" hidden>
             <div class="profil-info">
+              <h3>Profil :</h3>
               <p>Nom : <span>SIMON</span></p>
               <p>Prénom : <span>Martin</span></p>
               <p>Date de naissance : <span>24/03/2001</span></p>
@@ -57,6 +60,7 @@
             </div>
           </div>
           <div class="parcours-info-container" id="parcours" hidden>
+            <h3>Parcours Academique :</h3>
             <div class="parcours-info">
               <p>2023-2024 | ESGI - Aix-En-Provence (13)</p>
               <span>Ingégnerie du web</span>
@@ -81,6 +85,7 @@
             </div>
           </div>
           <div class="experiences-pro" id="experience" hidden>
+            <h3>Experience Professionnelles :</h3>
             <div class="experience-info">
               <p>
                 Septembre à Août 2023 - 2024 | Place des Finances - Marseille
@@ -122,12 +127,14 @@
             </div>
           </div>
           <div class="langues" id="Langues" hidden>
+            <h3>Langues :</h3>
             <div class="langues-info">
               <p>Anglais : <span>LV1 notion</span></p>
               <p>Espagnol : <span>LV2 notion</span></p>
             </div>
           </div>
           <div class="langages-container" id="LanguagesProgrammation" hidden>
+            <h3>Languages Informatique :</h3>
             <div class="langages-info">
               <p>PHP</p>
               <p>Javascript</p>

@@ -92,3 +92,12 @@ ul {
   font-size: 2rem;
   font-weight: 500;
 }
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: rgb(80, 80, 255);
+}

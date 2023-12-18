@@ -1,6 +1,5 @@
-function changeVisibility(sectionId) {
+function changeVisibility(sectionId, element) {
     const section = document.getElementById(sectionId);
-    console.log(section)
     if (section) {
         if (section.hasAttribute('hidden')) {
             section.removeAttribute('hidden');
@@ -12,8 +11,10 @@ function changeVisibility(sectionId) {
             //         s.setAttribute('hidden', 'true');
             //     }
             // });
+            element.style.color = 'blue'
         } else {
             section.setAttribute('hidden', 'true');
+            element.style.color = 'black'
         }
     }
 }

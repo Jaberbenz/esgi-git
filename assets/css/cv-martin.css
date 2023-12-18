@@ -43,4 +43,13 @@ li:hover {
 
 .selected {
   color: blue;
+  text-decoration: none;
+}
+
+.selected:hover {
+  color: rgb(80, 80, 255);
+}
+
+h3 {
+  text-align: center;
 }
