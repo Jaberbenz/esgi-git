@@ -34,3 +34,13 @@ hr {
   padding: 12px;
   align-items: center;
 }
+
+li:hover {
+  cursor: pointer;
+  color: rgb(80, 80, 255);
+  border-radius: 8px;
+}
+
+.selected {
+  color: blue;
+}

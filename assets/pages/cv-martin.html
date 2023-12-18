@@ -35,13 +35,17 @@
       <main>
         <div class="cv-content">
           <ul class="cv-rubrique">
-            <li>Profil</li>
-            <li>Parcours Academique</li>
-            <li>Experience Professionnelles</li>
-            <li>Langues</li>
-            <li>Languages Informatique</li>
+            <li onclick="changeVisibility('profil')">Profil</li>
+            <li onclick="changeVisibility('parcours')">Parcours Academique</li>
+            <li onclick="changeVisibility('experience')">
+              Experience Professionnelles
+            </li>
+            <li onclick="changeVisibility('Langues')">Langues</li>
+            <li onclick="changeVisibility('LanguagesProgrammation')">
+              Languages Informatique
+            </li>
           </ul>
-          <div class="profil-container" hidden>
+          <div class="profil-container" id="profil" hidden>
             <div class="profil-info">
               <p>Nom : <span>SIMON</span></p>
               <p>Prénom : <span>Martin</span></p>
@@ -52,7 +56,7 @@
               <p>Permis : <span>Permis B</span></p>
             </div>
           </div>
-          <div class="parcours-info-container" hidden>
+          <div class="parcours-info-container" id="parcours" hidden>
             <div class="parcours-info">
               <p>2023-2024 | ESGI - Aix-En-Provence (13)</p>
               <span>Ingégnerie du web</span>
@@ -76,7 +80,7 @@
               <span>Baccalauréat S, Option SVT.</span>
             </div>
           </div>
-          <div class="experiences-pro" hidden>
+          <div class="experiences-pro" id="experience" hidden>
             <div class="experience-info">
               <p>
                 Septembre à Août 2023 - 2024 | Place des Finances - Marseille
@@ -117,13 +121,13 @@
               >
             </div>
           </div>
-          <div class="langues" hidden>
+          <div class="langues" id="Langues" hidden>
             <div class="langues-info">
               <p>Anglais : <span>LV1 notion</span></p>
               <p>Espagnol : <span>LV2 notion</span></p>
             </div>
           </div>
-          <div class="langages-container" hidden>
+          <div class="langages-container" id="LanguagesProgrammation" hidden>
             <div class="langages-info">
               <p>PHP</p>
               <p>Javascript</p>
@@ -134,5 +138,6 @@
         </div>
       </main>
     </div>
+    <script src="../js/cv-martin.js" defer></script>
   </body>
 </html>
