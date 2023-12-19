@@ -1,0 +1,100 @@
+/* style-main.css */
+
+.cv-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .cv-rubrique {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .cv-rubrique li {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .cv-rubrique li:hover {
+    background-color: #ccc;
+  }
+  
+  .drawer-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .drawer-content p {
+    margin: 5px 0;
+    font-size: 1.5em;
+  }
+  
+  /* Enlevez la couleur et le soulignement des liens dans le contenu du tirroir */
+  .drawer-content a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .drawer-content a:hover {
+    text-decoration: underline;
+  }
+/* style-main.css */
+
+.cv-content {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.cv-rubrique {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.cv-rubrique li {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.cv-rubrique li:hover {
+  background-color: #ccc;
+}
+
+.drawer-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.drawer-content p {
+  margin: 5px 0;
+}
+
+/* Enlevez la couleur et le soulignement des liens dans le contenu du tirroir */
+.cv-content a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.drawer-content a:hover {
+  text-decoration: underline;
+}
+  
