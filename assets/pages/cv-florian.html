@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cv-florian.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Liste de cv</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>Curriculum Vitae</h1>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="list-student">
+            <h2>Etudiants</h2>
+            <div class="separator"></div>
+            <ul>
+                <li>Jaber</li>
+                <li>Mathys</li>
+                <li>Martin</li>
+                <li>Nawel</li>
+                <li class="selected">Florian</li>
+            </ul>
+        </aside>
+        <main>
+            <div class="cv-content">
+                <ul class="cv-rubrique">
+                    <li><button class="button-profile">Profil</button></li>
+                    <li><button class="button-school">Parcours Académique</button></li>
+                    <li><button class="button-pro">Expériences Professionnelles</button></li>
+                    <li><button class="button-language">Langues</button></li>
+                    <li><button class="button-dev">Langages Informatique</button></li>
+                </ul>
+
+                <div class="cv-part profile">
+                    <h3>Profil</h3>
+                    <p>Florian Lebon</p>
+                    <p>lflorian1@myges.fr</p>
+                    <p>300 avenue du grand vallat, 13100 Aix-en-Provence</p>
+                    <p>
+                        Passionné par les domaines du sport et de l’informatique. <br>
+                        Après 3 annèes d’alternance en tant que développeur web, <br>
+                        je cherche à compléter mes compétences dans un nouvel environnement de travail dans l'optique de valider mon master.
+                    </p>
+                    <h3>Centres d'intêrets</h3>
+                    <ul>
+                        <li>Sport / eSport : Fan de la Karmine Corp et de l’OM</li>
+                        <li>Jeux vidéos : Amateur de jeux en tout genre allant de la stratégie aux FPS en passant par les MOBA</li>
+                        <li>Informatique : Développement web, IA, développement de jeux-vidéos</li>
+                    </ul>
+                    <h3>Compétences</h3>
+                    <ul>
+                        <li>Travailler avec rigueur et en autonomie</li>
+                        <li>Travailler en équipe</li>
+                        <li>S’adapter aux différentes situations</li>
+                    </ul>
+                </div>
+
+                <div class="cv-part school">
+                    <h3>Formation</h3>
+                    <div class="formation">
+                        <h4 class="title">Bachelor CHARGÉ DE PROJETS EN SYSTÈMES INFORMATIQUES APPLIQUÉS – En alternance</h4>
+                        <p class="date">2021-2024</p>
+                        <p class="description">Ecole supérieure de génie informatique (ESGI), Aix-en-Provence (13)</p>
+                    </div>
+                    <div class="formation">
+                        <h4 class="title">Licence STAPS mention ESPM (ergonomie du sport et performance motrice) – mention Assez bien</h4>
+                        <p class="date">2018–2021</p>
+                        <p class="description">Faculté des sciences du sport, Marseille (13)</p>
+                    </div>
+                    <div class="formation">
+                        <h4 class="title">Bac S Sciences de l'ingénieur option Informatique et sciences du numérique - Mention assez bien</h4>
+                        <p class="date">2017</p>
+                        <p class="description">Lycée les Iscles, Manosque (04)</p>
+                    </div>
+                </div>
+
+                <div class="cv-part pro">
+                    <h3>Expériences professionnelles</h3>
+                    <div class="experience">
+                        <h4 class="title">AHPC-Services - Alternance</h4>
+                        <p class="job">Développeur full-stack | Manosque, France</p>
+                        <p class="date">Septembre 2021 – Maintenant</p>
+                        <ul class="description">
+                            <li>Développement logiciel (Java -> JavaFX, Maven, Hibernate)</li>
+                            <li>Développement web (PHP, WordPress, CodeIgniter, Symfony)</li>
+                            <li>Conception de base de données / conception interface utilisateur</li>
+                            <li>Gestion de projet et des clients</li>
+                        </ul>
+                    </div>
+                    <div class="experience">
+                        <h4 class="title">PROVENCE RUGBY (Pro D2) - Stage</h4>
+                        <p class="job">Analyste de données | Aix-en-Provence, France</p>
+                        <p class="date">Février 2021</p>
+                        <ul class="description">
+                            <li>Mener un projet de recherche</li>
+                            <li>Obtenir et analyser des données GPS</li>
+                            <li>Programmation R studio</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cv-part language">
+                    <h3>Langues</h3>
+                    <p>Anglais - Niveau C1 (TOEIC Blanc)</p>
+                </div>
+
+                <div class="cv-part dev">
+                    <h3>Web</h3>
+                    <ul>
+                        <li>Frontend : html, css, js</li>
+                        <li>Backend : php, java, js</li>
+                        <li>Frameworks : Codeigniter, Symfony, React</li>
+                    </ul>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java + JavaFX</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/cv-florian.js"></script>
+</body>
+
+</html>

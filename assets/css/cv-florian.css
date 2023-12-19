@@ -1,0 +1,41 @@
+.selected {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+.cv-part {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.formation {
+    margin-top: 30px;
+}
+
+.formation .title {
+    padding: 0;
+    margin: 0;
+}
+
+.formation .date {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.experience {
+    margin-top: 30px;
+}
+
+.experience .title {
+    padding: 0;
+    margin: 0;
+}
+
+.experience .job,
+.experience .date {
+    font-size: 1.5rem;
+    font-style: italic;
+}
