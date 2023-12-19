@@ -1,0 +1,25 @@
+.info{
+    margin-top: 20PX;
+    background-color: rgb(230, 190, 190);
+    padding: 20PX;
+    border: 1PX SOLID black;
+}
+p{
+    font-weight: bolder;
+    font-size: 20PX;
+}
+
+span{
+    font-weight: lighter;
+}
+
+.selected {
+    color: rgb(255, 80, 109);
+}
+.cv-rubrique{
+    cursor: pointer;
+}
+
+.li:hover{
+    color: blueviolet;
+}
