@@ -1,0 +1,55 @@
+.profil-container,
+.parcours-info-container,
+.experiences-pro,
+.langues,
+.langages-container {
+  margin: 32px 0 32px 0;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.profil-info span,
+.parcours-info span,
+.experience-info span,
+.langues-info span {
+  font-weight: normal;
+}
+
+.parcours-info,
+.experience-info {
+  margin: 24px 0;
+}
+
+hr {
+  width: 90%;
+}
+
+.cv-rubrique {
+  background-color: #dedede;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px;
+  align-items: center;
+}
+
+li:hover {
+  cursor: pointer;
+  color: rgb(80, 80, 255);
+  border-radius: 8px;
+}
+
+.selected {
+  color: blue;
+  text-decoration: none;
+}
+
+.selected:hover {
+  color: rgb(80, 80, 255);
+}
+
+h3 {
+  text-align: center;
+}
