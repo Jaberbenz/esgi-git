@@ -89,12 +89,15 @@ a {
   margin: 4rem 0;
 }
 
+.cv-content {
+  margin: 4rem 20rem;
+}
+
 .cv-rubrique {
   display: flex;
   gap: 7rem;
   font-size: 2rem;
   font-weight: 500;
-  margin: 4rem 20rem;
 }
 
 a {
