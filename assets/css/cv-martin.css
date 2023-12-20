@@ -53,3 +53,15 @@ li:hover {
 h3 {
   text-align: center;
 }
+
+.boutonAccueil {
+  color: white;
+  background: #07f207;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.boutonAccueil:hover {
+  color: white;
+  background: #08d308;
+}
